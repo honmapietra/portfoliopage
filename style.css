@@ -1,0 +1,213 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body { 
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* BANNER */
+
+.banner {
+    background-image: url("./imagens/montanha.jpg.jpg");
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.banner_conteudo {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.sobre::after {
+    border-bottom: 2px dashed #040e17;
+}
+
+.sobre::before {
+    height: 0px;
+    width: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #040e17;
+    margin: 0 auto;
+    content: "";
+    display: block;
+}
+
+/* SOBRE */
+
+.sobre, .redes_sociais {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.sobre > h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.sobre_mim {
+    display: flex;
+}
+
+
+.sobre_conteudo, .sobre_habilidades {
+    max-width: 50%;
+    margin-right: 5rem;
+}
+
+
+.habilidades-dev {
+    background-color: #10375c;
+    color: #fff;
+    padding: 20px;
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+}
+    
+
+
+.habilidades {
+    color: #fff;
+    
+}
+
+
+.sobre_conteudo {
+    margin-right: 5rem;
+}
+
+.botao {
+    background-color: #10375c;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    border: 1px solid transparent;
+}
+
+.botao:hover {
+    background-color: #bc8daf;
+    border: 1px solid #bc8daf;
+    transition: ease-in-out 0.3s;
+    opacity: 0.9;
+   
+}
+
+/* REDES SOCIAIS */
+
+.redes_sociais {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier Prime';
+}
+
+.redes_sociais div { 
+    background-color: #bc8daf;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.redes_sociais img {
+    filter: invert(1);
+}
+
+
+.rede-social {
+    width: 25%;
+    margin: 1rem;
+}
+
+.rede-social a {
+    color: #fff;
+}
+
+
+/* FOOTER */
+
+footer {
+    font-family: 'Courier Prime';
+    background-color: #10375c;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: #bc8daf;
+}
+
+footer .eu-img {
+    width: 40px;
+    height: 40px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 960px) {
+    .banner {
+        height: 80vh;
+        display: flex;
+        align-items: center;
+    }
+    .redes_sociais {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rede-social {
+        width: 50%;
+        max-width: 50%;
+    }
+
+    
+    .sobre_conteudo {
+       width: 100%;
+       max-width: 100%;
+       margin-right: 0;
+    }
+
+    .sobre_mim {
+        flex-direction: column;
+        padding: 12px;
+    }
+
+}
+    /* REPOSITORIES */
+
+    #repos { 
+    margin: 53px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bc8daf;
+    text-align: center;
+    padding: 2rem;
+}
+    .repo-titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+    #repos a {
+     padding: 5px;
+     color: #fff;
+    }
+
+
+

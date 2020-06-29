@@ -1,0 +1,105 @@
+body {
+ font-family: 'Playfair Display', serif;
+}
+
+.intro {
+padding: 150px 20px;
+text-align: center;
+background-image: url(https://cdn.pixabay.com/photo/2016/06/13/05/47/background-1453697__340.jpg);
+color: white;
+background-size: cover;
+background-position: center;
+filter: hue-rotate(60deg);
+}
+
+.intro h2 {
+    font-weight: 300;
+    font-size: 19px;
+}
+
+.btn-intro {
+    color: darkblue;
+    width: 187px;
+    font-weight: bold;
+    border-radius: 89px;
+    padding: 9px;
+}
+
+.container {
+    display: flex;
+}
+
+.content-title {
+    
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 29px;
+    margin-left: 22px;
+    margin-bottom: 29px;
+    color: #cac5c3;
+   
+}
+
+.child {
+    margin-left: 17px;
+    width: 50%;
+ 
+}
+
+.title {
+    font-size: 25px;
+    margin-left: 22px;
+    font-weight: bold;
+}
+
+.list {
+    font-size: 14px;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.info {
+    font-size: 12px;
+    width: 121px;
+    font-weight: bold;
+    border-radius: 23px;
+    padding: 6px;
+    border: solid 1px #864ea1;
+    color: #864ea1;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.square {
+    background: #864ea1;
+    max-width: 25%;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.title-square {
+    margin-top: 13px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.user {
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.image {
+    filter: invert();
+    width: 68px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+}
